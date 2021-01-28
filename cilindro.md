@@ -1,10 +1,21 @@
+__BUENAS TARDES__
 
-Algoritmo sin_titulo
-	Definir a Como Entero
-	Leer a
-	Si a MOD 2 = 0 Entonces
-		Escribir "es par"
-	SiNo
-		Escribir "es impar"
-	Fin Si
+A continuación envío el algoritmo para el calculo del area y volumen de un cilindro. 
+
+Algoritmo EJERCICIOCLASE2_CILINDROS
+	//INGRESAR LOS DATOS
+	Escribir "INGRESE LAS VARIABLES EN EL SIGUIENTE ORDEN: RADIO, ALTURA"
+	Leer R,H
+	//PROCESAMIENTO DE LOS DATOS
+	//AREA DE LAS BASES 
+	AB<-2*3.14*R^2
+	//AREA LATERAL
+	AL<-2*3.14*R*H
+	//AREA TOTAL DEL CILINDRO
+	AT<-AB+AL
+	//VOLUMEN DEL CILINDRO
+	V<-3.14*R^2*H
+	Escribir "EL AREA DEL CILINDRO ES:",AT
+	Escribir "EL VOLUMEN DEL CILINDRO ES:",V
 FinAlgoritmo
+
