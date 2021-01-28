@@ -1,1 +1,23 @@
+##BUENAS TARDES##
+
+A continuación envío el algoritmo para el cálculo de la nota final del estudiante. Fue desarrollado en __PSEINT__.
+Quedo atento a los comentarios. 
+
+Algoritmo EJERCICIO_NOTAS
+	//INGRESAR LOS DATOS
+	Escribir "INGRESE LAS 4 CALIFICACIONES DEL ESTUDIANTE EN EL SIGUIENTE ORDEN: C1 PARCIAL 1, C2 PARCIAL 2, C3 PARTICIPACION, C4 EXAMEN FINAL"
+	Leer C1,C2,C3,C4
+	//PROCESAMIENTO DE LOS DATOS
+	//PARCIAL 1
+	P1<-C1*0.25
+	//PARCIAL 2
+	P2<-C2*0.25
+	//PARTICIPACIÓN
+	PT<-C3*0.20
+	//EXAMEN FINAL
+	EF<-C4*0.30
+	//NOTA FINAL
+	NF<-P1+P2+PT+EF
+	Escribir "LA NOTA FINAL DEL ESTUDIANTE ES:",NF
+FinAlgoritmo
 
