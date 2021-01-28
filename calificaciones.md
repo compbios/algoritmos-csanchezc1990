@@ -1,4 +1,4 @@
-#BUENAS TARDES#
+##BUENAS TARDES
 
 A continuación envío el algoritmo para el cálculo de la nota final del estudiante. Fue desarrollado en __PSEINT__.
 Quedo atento a los comentarios. 
